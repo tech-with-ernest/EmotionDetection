@@ -1,0 +1,5 @@
+Package import: OK
+Formatted result (mock Watson response): {'anger': 0.03, 'disgust': 0.02, 'fear': 0.04, 'joy': 0.88, 'sadness': 0.03, 'dominant_emotion': 'joy'}
+GET /: 200
+GET /emotionDetector (mock Watson response): For the given statement, the system response is 'anger': 0.03, 'disgust': 0.02, 'fear': 0.04, 'joy': 0.88 and 'sadness': 0.03. The dominant emotion is joy.
+GET /emotionDetector (blank input): Invalid text! Please try again!

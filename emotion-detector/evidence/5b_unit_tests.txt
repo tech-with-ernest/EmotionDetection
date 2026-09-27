@@ -1,0 +1,11 @@
+test_bad_request (test_emotion_detection.TestEmotionDetector.test_bad_request)
+A 400 response returns six None fields. ... ok
+test_blank_input_in_browser (test_emotion_detection.TestEmotionDetector.test_blank_input_in_browser)
+Whitespace is rejected before calling Watson. ... ok
+test_emotion_scores_and_dominant_emotion (test_emotion_detection.TestEmotionDetector.test_emotion_scores_and_dominant_emotion)
+The returned result has the required keys and highest score. ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.028s
+
+OK
